@@ -1,10 +1,10 @@
 import sys
 numTemp = int(input())
-ans = 0
-numbers = input().split()
-for number in numbers:
+displaytext = 0
+numberfield = input().split()
+for number in numberfield:
     if int(number) < 0:
-        ans += 1
-print (ans)
+        displaytext += 1
+print (displaytext)
 
 
